@@ -1,0 +1,47 @@
+.music-player {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .player-controls {
+    margin-top: 20px;
+  }
+  
+  .progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 0%;
+  }
+  
+  .time-display {
+    margin-bottom: 10px;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  li:hover {
+    color: blue;
+  }
+  
